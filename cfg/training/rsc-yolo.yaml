@@ -9,7 +9,7 @@ anchors:
   - [36,75, 76,55, 72,146]  # P4/16
   - [142,110, 192,243, 459,401]  # P5/32
 
-# yolov7 backbone
+# backbone
 backbone:
   # [from, number, module, args]
   [[-1, 1, Conv, [32, 3, 1]],  # 0
@@ -70,7 +70,7 @@ backbone:
    [-1, 1, Conv, [1024, 1, 1]],  # 50
   ]
 
-# yolov7 head
+# head
 head:
   [[-1, 1, SPPCSPC, [512]], # 51
   
