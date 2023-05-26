@@ -6,7 +6,7 @@ The architecture configuration of the model is [rcs-yolo.yaml](https://github.co
 
 > Training
 
-The hyperparameters are in the [my.yaml](https://github.com/mkang315/rcs-yolo/blob/main/data/mydata.yaml).
+The hyperparameters settings are in the [my.yaml](https://github.com/mkang315/rcs-yolo/blob/main/data/mydata.yaml).
 
 > Testing
 ```
