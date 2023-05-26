@@ -7,7 +7,7 @@ The architecture configuration of the model is [rcs-yolo.yaml](https://github.co
 > Training
 > Testing
 ```
-python test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name rcs_yolo_640_val
+python test.py --data data/mydata.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name rcs_yolo_640_val
 ```
 
 ## Performance
