@@ -2,7 +2,7 @@
 PyTorch implementation of "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection".
 
 ## Model
-The main code of the model is [rcs-yolo.yaml]() in the the directory ./main/training. The model weights we pretrained on the brain tumor detection is [best.pt]() in the directory ./rcs-yolo/runs/train/exp.
+The main code of the model is [rcs-yolo.yaml]() in the the directory ./main/training. The model weights we pretrained on the brain tumor detection is [best.pt]() in the directory ./rcs-yolo/runs/train/exp/weights.
 
 ## Performance
 We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection 2020](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
