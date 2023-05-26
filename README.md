@@ -10,12 +10,12 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 ## Suggested Citation
 > Plain Text
 
-*Nature Style*
+*Nature* Style
 ```
 Kang, M., Ting, C.-M., Ting, F. F., and Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In , (2023)
 ```
 
-*IEEE Style*
+*IEEE* Style
 ```
 M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in , 2023.
 ```
