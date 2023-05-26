@@ -5,10 +5,15 @@ PyTorch implementation of "RCS-YOLO: A Fast and High-Accuracy Object Detector fo
 The main code is rcs-yolo.yaml in the the folder main.
 
 ## Performance
-We trained and evaluated RCS-YOLO on the dataset Br35H :: Brain Tumor Detection 2020.
+We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection 2020](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
 
 ## Suggested Citation
 > Plain Text
+
+*Nature Style*
+```
+Kang, M. Ting, C.-M., Ting, F. F., and Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. in , (2023)
+```
 
 *IEEE Style*
 ```
