@@ -22,6 +22,8 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 | [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.907 | 0.919 | 0.944 | **0.731** | 164.8G | 76.2 |
 | **RCS-YOLO** | 45.7M | **0.936** | 0.945 | **0.946** | 0.729 | **94.5G** | **114.8** |
 
+The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
+
 ## Ablation Studies
 
 
