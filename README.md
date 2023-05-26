@@ -26,10 +26,10 @@ The screenshot/visualisation of evaluation results are in the directory ./runs/v
 
 ## Ablation Studies
 The results of ablation results are shown as below.
-| Method | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | FLOPs | FPS |
-| :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| W/O RegVGG |   |   |   |   |   |  |
-| W/O RCS-OSA |   |   |   |   |   |  |
+| Method | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> |
+| :--------: | :-------: | :-------: | :-------: | :-------: |
+| W/O RegVGG |   |   |   |   |
+| W/O RCS-OSA |   |   |   |   |
 
 ## Suggested Citation
 > Plain Text
