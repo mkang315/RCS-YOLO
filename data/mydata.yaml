@@ -1,5 +1,5 @@
-train: dataBr35H/traindata
-val: dataBr35H/valdata
+train: dataset-Br35H/traindata
+val: dataset-Br35H/valdata
 
 nc: 1
 names: ['t']
