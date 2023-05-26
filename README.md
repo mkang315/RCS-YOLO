@@ -28,6 +28,7 @@ The screenshot/visualisation of evaluation results are in the directory ./runs/v
 The results of ablation results are shown as below.
 | Method | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
+| RCS-YOLO |   |   |   |   |
 | W/O RegVGG |   |   |   |   |
 | W/O RCS-OSA |   |   |   |   |
 
