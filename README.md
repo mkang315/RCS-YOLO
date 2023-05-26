@@ -4,7 +4,7 @@ PyTorch implementation of "RCS-YOLO: A Fast and High-Accuracy Object Detector fo
 ## Model
 The architecture configuration of the model is [rcs-yolo.yaml](https://github.com/mkang315/rcs-yolo/blob/main/yaml/training/rsc-yolo.yaml) in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt](https://github.com/mkang315/rcs-yolo/blob/main/runs/train/exp/weights/best.pt) in the directory ./rcs-yolo/runs/train/exp/weights/.
 
-> Training
+### Training
 
 The hyperparameters are in the [my.yaml](https://github.com/mkang315/rcs-yolo/blob/main/data/mydata.yaml).
 
