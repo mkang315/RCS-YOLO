@@ -36,41 +36,8 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 
 The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
 
-<!---
-## Suggested Citation>
-Please cite our paper if you use code from this repository:
-> Plain Text
-
-*Nature* Style
-```
-Kang, M., Ting, C.-M., Ting, F. F., and Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In , (2023)
-```
-
-*IEEE* Style
-```
-M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in , 2023.
-```
-
-> BibTeX Format
-```
-@inproceedings{kang2023rcsyolo,
-  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Raphael Phan",
-  title = "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection",
-  booktitle = " ",
-  year = "2023"
-}
-```
-```
-@inproceedings{kang2023rcsyolo,
-  author = {Ming Kang and Chee-Ming Ting and Fung Fung Ting and Raphael Phan},
-  title = {RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection},
-  booktitle = { },
-  year = {2023}
-}
-```
-
 ## License
-RCS-YOLO is released under the Apache 2.0 license. Please see the [LICENSE](https://github.com/mkang315/rcs-yolo/blob/main/LICENSE) file for more information.
--->
+RCS-YOLO is released under the Apache 2.0 license. Please see the [LICENSE] file for more information.
+
 ## References
 Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7) repository.
