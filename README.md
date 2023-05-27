@@ -2,23 +2,24 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The model configuration (i.e., network construction) file is [rcs-yolo.yaml] in the the directory ./cfg/training/. The model weights we pretrained on the brain tumor detection is [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
+The model configuration (i.e., network construction) file is [rcs-yolo.yaml] in the the directory ./cfg/training/.
 
 #### Training
 
-The hyperparameters settings are in the [hyp_training.yaml].
-
-Single GPU training
+The hyperparameter setting file is [hyp_training.yaml] in the [hyp_training.yaml].
+######Single GPU training
 ```
 python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/hyp_training.yaml
 ```
 
-Multiple GPU training
+######Multiple GPU training
 ```
 python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/br35h.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/hyp_training.yaml
 ```
 
 #### Testing
+
+The model weights we pretrained on the brain tumor detection was saved as [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
 ```
 python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name val
 ```
