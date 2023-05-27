@@ -1,8 +1,8 @@
 # Official RCS-YOLO
-PyTorch implementation of "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection".
+This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The architecture configuration of the model is [rcs-yolo.yaml](https://github.com/mkang315/rcs-yolo/blob/main/yaml/training/rsc-yolo.yaml) in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt](https://github.com/mkang315/rcs-yolo/blob/main/runs/train/exp/weights/best.pt) in the directory ./rcs-yolo/runs/train/exp/weights/.
+The network architecture (configuration) of the model is [rcs-yolo.yaml](https://github.com/mkang315/rcs-yolo/blob/main/yaml/training/rsc-yolo.yaml) in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt](https://github.com/mkang315/rcs-yolo/blob/main/runs/train/exp/weights/best.pt) in the directory ./rcs-yolo/runs/train/exp/weights/.
 
 > Training
 
@@ -33,6 +33,7 @@ The results of ablation results are shown as below.
 | W/O RCS-OSA |   |   |   |   |
 
 ## Suggested Citation
+Please cite our paper if you use code from this repository:
 > Plain Text
 
 *Nature* Style
