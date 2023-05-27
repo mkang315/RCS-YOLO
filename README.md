@@ -6,7 +6,7 @@ The model configuration (i.e., network construction) file is [rcs-yolo.yaml] in 
 
 #### Training
 
-The hyperparameter setting file is [hyp_training.yaml] in the [hyp_training.yaml].
+The hyperparameter setting file is [hyp_training.yaml] in the directory ./data/.
 
 ###### Single GPU training
 ```
