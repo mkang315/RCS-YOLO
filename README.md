@@ -7,6 +7,7 @@ The model configuration (i.e., network construction) file is [rcs-yolo.yaml] in 
 #### Training
 
 The hyperparameter setting file is [hyp_training.yaml] in the [hyp_training.yaml].
+
 ######Single GPU training
 ```
 python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/hyp_training.yaml
