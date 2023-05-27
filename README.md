@@ -2,11 +2,11 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The model configuration (i.e., network construction) file is [rcs-yolo.yaml] in the the directory ./cfg/training/.
+The model configuration (i.e., network construction) file is rcs-yolo.yaml in the the directory ./cfg/training/.
 
 #### Training
 
-The hyperparameter setting file is [hyp_training.yaml] in the directory ./data/.
+The hyperparameter setting file is hyp_training.yaml in the directory ./data/.
 
 ###### Single GPU training
 ```
@@ -20,7 +20,7 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.p
 
 #### Testing
 
-The model weights we pretrained on the brain tumor detection was saved as [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
+The model weights we pretrained on the brain tumor detection was saved as best.pt in the directory ./rcs-yolo/runs/train/exp/weights/.
 ```
 python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name val
 ```
@@ -37,7 +37,7 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
 
 ## License
-RCS-YOLO is released under the Apache 2.0 license. Please see the [LICENSE] file for more information.
+RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
 
 ## References
 Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7) repository.
