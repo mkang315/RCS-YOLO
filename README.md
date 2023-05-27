@@ -10,12 +10,12 @@ The hyperparameters settings are in the [my.yaml].
 
 Single GPU training
 ```
-python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg yaml/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
 ```
 
 Multiple GPU training
 ```
-python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/coco.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
 ```
 
 #### Testing
