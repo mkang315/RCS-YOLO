@@ -6,21 +6,21 @@ The network architecture (configuration) of the model is [rcs-yolo.yaml] in the 
 
 #### Training
 
-The hyperparameters settings are in the [my.yaml].
+The hyperparameters settings are in the [hyp_training.yaml].
 
 Single GPU training
 ```
-python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/hyp_training.yaml
 ```
 
 Multiple GPU training
 ```
-python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/mydata.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/br35h.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/hyp_training.yaml
 ```
 
 #### Testing
 ```
-python test.py --data data/mydata.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name rcs_yolo_640_val
+python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt --name val
 ```
 
 ## Performance
