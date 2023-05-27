@@ -2,7 +2,7 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The network architecture (configuration) of the model is [rcs-yolo.yaml] in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
+The network architecture (configuration) of the model is [rcs-yolo.yaml] in the the directory ./cfg/training/. The model weights we pretrained on the brain tumor detection is [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
 
 #### Training
 
