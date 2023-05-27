@@ -2,11 +2,21 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The network architecture (configuration) of the model is [rcs-yolo.yaml]<!---(https://github.com/mkang315/rcs-yolo/blob/main/yaml/training/rsc-yolo.yaml)---> in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt]<!---(https://github.com/mkang315/rcs-yolo/blob/main/runs/train/exp/weights/best.pt)---> in the directory ./rcs-yolo/runs/train/exp/weights/.
+The network architecture (configuration) of the model is [rcs-yolo.yaml] in the the directory ./yaml/training/. The model weights we pretrained on the brain tumor detection is [best.pt] in the directory ./rcs-yolo/runs/train/exp/weights/.
 
 #### Training
 
-The hyperparameters settings are in the [my.yaml]<!---(https://github.com/mkang315/rcs-yolo/blob/main/data/mydata.yaml)--->.
+The hyperparameters settings are in the [my.yaml].
+
+Single GPU training
+```
+python train.py --workers 8 --device 0 --batch-size 32 --data data/mydata.yaml --img 640 640 --cfg yaml/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+```
+
+Multiple GPU training
+```
+python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/coco.yaml --img 640 640 --cfg cfg/training/rcs-yolo.yaml --weights '' --name rcs-yolo --hyp data/my.yaml
+```
 
 #### Testing
 ```
