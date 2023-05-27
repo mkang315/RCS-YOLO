@@ -65,3 +65,6 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accurac
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the [LICENSE](https://github.com/mkang315/rcs-yolo/blob/main/LICENSE) file for more information.
+
+## References
+Many utility codes are borrowed from [YOLOv7](https://github.com/WongKinYiu/yolov7) and [YOLOv5](https://github.com/ultralytics/yolov5).
