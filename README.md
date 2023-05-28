@@ -2,7 +2,7 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The model configuration (i.e., network construction) file is rcs-yolo.yaml in the the directory ./cfg/training/.
+The model configuration (i.e., network construction) file is rcs-yolo.yaml in the the directory ./cfg/training/. The RepVGG/RepConv ShuffleNet based One-Shot Aggregation (RCS-OSA) module file is VovShuffleRep.py in the directory ./models/, which is the unique module we proposed.
 
 #### Training
 
