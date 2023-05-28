@@ -2,7 +2,7 @@
 This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
 
 ## Model
-The model configuration (i.e., network construction) file is rcs-yolo.yaml in the the directory ./cfg/training/. The RepVGG/RepConv ShuffleNet based One-Shot Aggregation (RCS-OSA) module file is VovShuffleRep.py in the directory ./models/, which is the unique module we proposed.
+The model configuration (i.e., network construction) file is rcs-yolo.yaml in the the directory ./cfg/training/. The [RepVGG](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf)/[RepConv](https://arxiv.org/pdf/2207.02696.pdf) [ShuffleNet](https://openaccess.thecvf.com/content_ECCV_2018/papers/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.pdf) based [One-Shot Aggregation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_CenterMask_Real-Time_Anchor-Free_Instance_Segmentation_CVPR_2020_paper.pdf) (RCS-OSA) module file is VovShuffleRep.py in the directory ./models/, which is the unique module we proposed.
 
 #### Training
 
@@ -39,5 +39,5 @@ The screenshot/visualisation of evaluation results are in the directory ./runs/v
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
 
-## References
-Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7) repository.
+## Acknowledgement
+Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series) and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
