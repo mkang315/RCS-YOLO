@@ -1,0 +1,11 @@
+# Br35H :: Brain Tumor Detection 2020 https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection
+
+# train and val data as the following directories
+train: dataset-Br35H/traindata
+val: dataset-Br35H/valdata
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Brain Tumor']
