@@ -41,7 +41,7 @@ The results of ablation studies are shown below in Markdown format.
 | Method | Precision | Recall | AP50 | AP50:95 |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
 | YOLOv4-CSP | 0.920 | 0.915 | 0.937 | 0.690 |
-| YOLOv4-CSP-VoVSR | 0.927  | 0.919 | 0.939 | 0.703 |
+| YOLOv4-CSP-RCSOSA | 0.927  | 0.919 | 0.939 | 0.703 |
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
