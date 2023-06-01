@@ -40,7 +40,7 @@ The screenshot/visualisation of evaluation results are in the directory ./runs/v
 ## Ablation Studies
 The results of ablation studies are shown below in Markdown format. We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detector.
 **Table 2 Ablation study on proposed RCS-OSA module.** 
-| Method | Precision | Recall | AP50 | AP50:95 |
+| Method | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
 | YOLOv4-CSP (w/o RCS-OSA) | 0.920 | 0.915 | 0.937 | 0.690 |
 | YOLOv4-CSP (w/ RCS-OSA) | 0.927  | 0.919 | 0.939 | 0.703 |
