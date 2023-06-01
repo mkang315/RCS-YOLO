@@ -34,7 +34,7 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 | [YOLOv6-L](https://github.com/meituan/YOLOv6) | 59.6M | 0.907 | 0.920 | 0.929 | 0.709 | 150.5G | 64.0 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 36.9M | 0.897 | **0.955** | 0.944 | 0.725 | 103.3G | 71.4 |
 | [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.907 | 0.919 | 0.944 | **0.731** | 164.8G | 76.2 |
-| **RCS-YOLO** | 45.7M | **0.936** | 0.945 | **0.946** | 0.729 | **94.5G** | **114.8** |
+| **RCS-YOLO** | 45.7M | **0.936** | 0.945 | **0.946** | 0.729 | **94.5G** | **114.8** |<br />
 <br />
 The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
 
