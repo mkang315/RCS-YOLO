@@ -47,7 +47,7 @@ We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based ob
 | RepVGG-CSP (w/o RCS-OSA, RCS-OSA replaced with CSP) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
 | **RCS-YOLO (w/ RCS-OSA)** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
-Because the parameters of RepVGG-CSP (22.2M) are much less than RCS-YOLO (45.7M), the GFLOPs of RepVGG-CSP are smaller than RCS-YOLO.
+Because the parameters of RepVGG-CSP (22.2M) are less than twice those of RCS-YOLO (45.7M), the GFLOPs of RepVGG-CSP are smaller than RCS-YOLO.
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
