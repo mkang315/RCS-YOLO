@@ -28,7 +28,7 @@ python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.
 ## Performance
 We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection 2020](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection). The txt format annotations in the folder dataset-Br35H are coverted from original json format. We used 500 images of which in the ’train’ folder were selected as the training set, while the other 201 images in the ’val’ folder as the testing set. The best results are shown in bold.<br />
 <br />
-**Table 1&nbsp;&nbsp;Quantitative results of different methods. The best results are shown in bold.** 
+**Table 1&nbsp;&nbsp;&nbsp;&nbsp;Quantitative results of different methods. The best results are shown in bold.** 
 | Model | Parameter | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [YOLOv6-L](https://github.com/meituan/YOLOv6) | 59.6M | 0.907 | 0.920 | 0.929 | 0.709 | 150.5 | 64.0 |
@@ -41,7 +41,7 @@ The screenshots of evaluation results are in the directory ./runs/val/.
 ## Ablation Study
 We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detectors. The results of the ablation study are shown below. The best results are shown in bold.<br />
 <br />
-**Table 2&nbsp;&nbsp;Ablation study on proposed RCS-OSA module.** 
+**Table 2&nbsp;&nbsp;&nbsp;&nbsp;Ablation study on proposed RCS-OSA module.** 
 | Method | Parameter | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
 | :--------: | :-------: | :-------: |:-------: | :-------: | :-------: | :-------: | :-------: |
 | RepVGG-CSP (w/o RCS-OSA, RCS-OSA replaced with CSP) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
