@@ -44,7 +44,7 @@ We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based ob
 **Table 2 Ablation study on proposed RCS-OSA module.** 
 | Method | Parameter | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
 | :--------: | :-------: | :-------: |:-------: | :-------: | :-------: | :-------: | :-------: |
-| RepVGG-CSP (RCS-OSA replaced with CSP, w/o RCS-OSA) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
+| RepVGG-CSP (w/o RCS-OSA, RCS-OSA replaced with CSP) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
 | **RCS-YOLO (w/ RCS-OSA)** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
 Because the parameters of RepVGG-CSP (22.2M) are much less than RCS-YOLO (45.7M), the GFLOPs of RepVGG-CSP are smaller than RCS-YOLO.
