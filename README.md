@@ -29,23 +29,23 @@ python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.
 We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection 2020](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection). The txt format annotations in the folder dataset-Br35H are coverted from original json format. We used 500 images of which in the ’train’ folder were selected as the training set, while the other 201 images in the ’val’ folder as the testing set. The best results are shown in bold.<br />
 <br />
 **Table 1 Quantitative results of different methods. The best results are shown in bold.** 
-| Model | Params | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | FLOPs | FPS |
+| Model | Params | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [YOLOv6-L](https://github.com/meituan/YOLOv6) | 59.6M | 0.907 | 0.920 | 0.929 | 0.709 | 150.5G | 64.0 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 36.9M | 0.897 | **0.955** | 0.944 | 0.725 | 103.3G | 71.4 |
-| [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.907 | 0.919 | 0.944 | **0.731** | 164.8G | 76.2 |
+| [YOLOv6-L](https://github.com/meituan/YOLOv6) | 59.6M | 0.907 | 0.920 | 0.929 | 0.709 | 150.5 | 64.0 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 36.9M | 0.897 | **0.955** | 0.944 | 0.725 | 103.3 | 71.4 |
+| [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.907 | 0.919 | 0.944 | **0.731** | 164.8 | 76.2 |
 | **RCS-YOLO** | 45.7M | **0.936** | 0.945 | **0.946** | 0.729 | **94.5G** | **114.8** |
 
 The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
 
 ## Ablation Studies
-The results of ablation studies are shown below in Markdown format. We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detector.<br />
+The results of ablation studies are shown below. We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detectors. The best results are shown in bold.<br />
 <br />
 **Table 2 Ablation study on proposed RCS-OSA module.** 
-| Method | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> |
-| :--------: | :-------: | :-------: | :-------: | :-------: |
-| YOLOv4-CSP (w/o RCS-OSA) | 0.920 | 0.915 | 0.937 | 0.690 |
-| YOLOv4-CSP (w/ RCS-OSA) | 0.927  | 0.919 | 0.939 | 0.703 |
+| Method | Params | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
+| :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+| RepVGG-CSP (RCS-OSA replaced with CSP, w/o RCS-OSA) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
+| RCS-YOLO (ours, w/ RCS-OSA) | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
