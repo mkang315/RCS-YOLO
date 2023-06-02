@@ -36,7 +36,7 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 | [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.907 | 0.919 | 0.944 | **0.731** | 164.8 | 76.2 |
 | **RCS-YOLO** | 45.7M | **0.936** | 0.945 | **0.946** | 0.729 | **94.5** | **114.8** |
 
-The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
+The screenshots of evaluation results are in the directory ./runs/val/.
 
 ## Ablation Study
 We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detectors. The results of the ablation study are shown below. The best results are shown in bold.<br />
@@ -47,10 +47,10 @@ We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based ob
 | RepVGG-CSP (w/o RCS-OSA, RCS-OSA replaced with CSP) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
 | **RCS-YOLO (w/ RCS-OSA)** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
-Because the parameters of RepVGG-CSP (22.2M) are less than twice those of RCS-YOLO (45.7M), the GFLOPs of RepVGG-CSP are smaller than RCS-YOLO. RCS-YOLO still performs better in actual inference speed measured by Frames Per Second (FPS).
+Because the parameters of RepVGG-CSP (22.2M) are less than twice those of RCS-YOLO (45.7M), the GFLOPs of RepVGG-CSP are smaller than RCS-YOLO. Nevertheless, RCS-YOLO still performs better in actual inference speed measured by Frames Per Second (FPS).
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
 
 ## Acknowledgement
-Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series), and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
+Many utility codes of our project reference the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series), and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
