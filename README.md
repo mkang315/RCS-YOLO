@@ -38,8 +38,8 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 
 The screenshot/visualisation of evaluation results are in the directory ./runs/val/.
 
-## Ablation Studies
-The results of ablation studies are shown below. We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detectors. The best results are shown in bold.<br />
+## Ablation Study
+We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based object detectors. The results of the ablation study are shown below. The best results are shown in bold.<br />
 <br />
 **Table 2 Ablation study on proposed RCS-OSA module.** 
 | Method | Parameter | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
