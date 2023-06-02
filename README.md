@@ -44,8 +44,8 @@ We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based ob
 **Table 2 Ablation study on proposed RCS-OSA module.** 
 | Method | Parameter | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
 | :--------: | :-------: | :-------: |:-------: | :-------: | :-------: | :-------: | :-------: |
-| RepVGG-CSP (w/o RCS-OSA) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
-| **RCS-YOLO (w/ RCS-OSA)** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
+| RepVGG-CSP (RCS-OSA replaced with CSP, w/o RCS-OSA) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
+| **RCS-YOLO (ours, w/ RCS-OSA)** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
 ## License
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
