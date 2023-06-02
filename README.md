@@ -43,7 +43,7 @@ The results of ablation studies are shown below. We demonstrate the effectivenes
 <br />
 **Table 2 Ablation study on proposed RCS-OSA module.** 
 | Method | Params | Precision | Recall | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
-| :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+| :--------: | :-------: | :-------: |:-------: | :-------: | :-------: | :-------: | :-------: |
 | RepVGG-CSP (RCS-OSA replaced with CSP, w/o RCS-OSA) | 22.2M | 0.926 | 0.930 | 0.933 | 0.689 | **43.3** | 6.1 |
 | RCS-YOLO (ours, w/ RCS-OSA) | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | 94.5 | **114.8** |
 
