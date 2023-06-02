@@ -53,4 +53,4 @@ Because the parameters of RepVGG-CSP (22.2M) are less than twice those of RCS-YO
 RCS-YOLO is released under the Apache 2.0 license. Please see the LICENSE file for more information.
 
 ## Acknowledgement
-Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series) and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
+Many utility codes of our project references the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series), and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
