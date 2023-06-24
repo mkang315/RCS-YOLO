@@ -49,10 +49,7 @@ We demonstrate the effectiveness of the proposed RCS-OSA module in YOLO-based ob
 
 Because the parameters of RepVGG-CSP (22.2M) are less than half those of RCS-YOLO (45.7M), the computation amount (GFLOPs) of RepVGG-CSP is accordingly smaller than RCS-YOLO. Nevertheless, RCS-YOLO still performs better in actual inference speed measured by Frames Per Second (FPS).
 
-## License
-RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
-
-## Suggested Citation>
+## Suggested Citation
 Our manuscript has been accepted for publication. Please cite our paper if you use code from this repository:
 > Plain Text
 
@@ -103,6 +100,9 @@ Note: City of Conf., Abbrev. State, Country, Month & day(s) are optional.
 }
 ```
 Note: Please remove some optional BibTeX fields, for example, address, publisher, and url, while the LaTeX compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler.
+
+## License
+RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
 
 ## Acknowledgement
 Many utility codes of our project reference the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7), [RepVGG](https://github.com/DingXiaoH/RepVGG), [ShuffleNet](https://github.com/megvii-model/ShuffleNet-Series), and [VoVNetV2](https://github.com/youngwanLEE/vovnet-detectron2) repositories.
