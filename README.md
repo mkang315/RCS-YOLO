@@ -54,7 +54,7 @@ Our manuscript has been accepted for publication. Please cite our paper if you u
 > Plain Text
 
 - *Springer Lecture Notes in Computer Science (LNCS)* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F., Phan, R: Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In: Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?. Lecture Notes in Computer Science, vol , in press. Springer, Cham (2023). [https://doi.org/10.1007/](https://doi.org/10.1007/)</br>
+Kang, M., Ting, C.-M., Ting, F. F., Phan, R: Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In: Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?. Lecture Notes in Computer Science (LNCS), vol , in press. Springer, Cham (2023). [https://doi.org/10.1007/](https://doi.org/10.1007/)</br>
 <sup>**NOTE:** MICCAI adopts *Springer Lecture Notes in Computer Science (LNCS)* style.</sup>
 
 - *Nature* Style</br>
