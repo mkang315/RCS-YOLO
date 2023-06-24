@@ -59,7 +59,7 @@ Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. Rcs-yolo: A fast and high-accuracy
 
 - *IEEE* Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, in press.</br>
-**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.
+<sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
 > BibTeX Format</br>
 ```
@@ -93,7 +93,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accurac
   url = "",
 }
 ```
-**NOTE:** Please remove some optional *BibTeX* fields, for example, address, publisher, and so on, while the *LaTeX* compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler.
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, address, publisher, and so on, while the *LaTeX* compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler.</sup>
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
