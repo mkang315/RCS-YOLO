@@ -1,5 +1,5 @@
 # Official RCS-YOLO
-This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection", of which I am the first author.
+This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection" accepted by the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2023), of which I am the first author.
 
 ## Model
 The model configuration (i.e., network construction) file is rcs-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/RCS-YOLO/tree/main/cfg/training). The [RepVGG](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf)/[RepConv](https://arxiv.org/pdf/2207.02696.pdf) [ShuffleNet](https://openaccess.thecvf.com/content_ECCV_2018/papers/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.pdf) based [One-Shot Aggregation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_CenterMask_Real-Time_Anchor-Free_Instance_Segmentation_CVPR_2020_paper.pdf) (RCS-OSA) module file is rcsosa.py in the directory [./models/](https://github.com/mkang315/RCS-YOLO/tree/main/models), which is the unique module we proposed.
@@ -53,9 +53,12 @@ Because the parameters of RepVGG-CSP (22.2M) are less than half those of RCS-YOL
 Our manuscript has been accepted for publication. Please cite our paper if you use code from this repository:
 > Plain Text
 
+- *Springer Lecture Notes in Computer Science (LNCS)* Style</br>
+Kang, M., Ting, C.-M., Ting, F. F., Phan, R: Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In: Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?. Lecture Notes in Computer Science, vol , in press. Springer, Cham (2023). [https://doi.org/10.1007/](https://doi.org/10.1007/)</br>
+<sup>**NOTE:** *MICCAI* adopts *Springer Lecture Notes in Computer Science (LNCS)* style.</sup>
+
 - *Nature* Style</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* in press (2023).</br>
-<sup>**NOTE:** *Lecture Notes in Computer Science (LNCS)* citation/reference style has some differences from the *Nature* style.</sup>
 
 - *IEEE* Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, in press.</br>
