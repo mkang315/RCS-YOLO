@@ -99,7 +99,7 @@ Note: City of Conf., Abbrev. State, Country, Month & day(s) are optional.
   url = "",
 }
 ```
-Note: Please remove some optional BibTeX fields, for example, address, publisher, and url, while the LaTeX compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler.
+Note: Please remove some optional BibTeX fields, for example, address, publisher, and so on, while the LaTeX compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler.
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
