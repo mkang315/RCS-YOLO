@@ -93,7 +93,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accurac
   url = "",
 }
 ```
-<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, address, publisher, and so on, while the *LaTeX* compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler under the control of .bst file.</sup>
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, address, publisher, and so on, while the *LaTeX* compiler produces an error. Author names should be manually modified if not automatically abbreviated by the compiler under the control of the .bst file.</sup>
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
