@@ -35,11 +35,11 @@ Our manuscript has been accepted for publication. Please cite our paper if you u
 > Plain Text
 
 - Springer Verlag's *Lecture Notes in Computer Science (LNCS)* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F., Phan, R: Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In: Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?. Lecture Notes in Computer Science (LNCS), vol , in press. Springer, Cham (2023). [https://doi.org/10.1007/](https://doi.org/10.1007/)</br>
+Kang, M., Ting, C.-M., Ting, F. F., Phan, R: Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In: X. Xxxx et al. (Eds.) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?. Lecture Notes in Computer Science (LNCS), vol 00000, in press. Springer, Cham (2023). [https://doi.org/10.1007/978-3-000-00000-0\_0](https://doi.org/10.1007/978-3-000-00000-0\_0)</br>
 <sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS and use the LNCS citation style.</sup>
 
 - *Nature* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* in press (2023).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
 
 - *IEEE* Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, in press.</br>
@@ -50,31 +50,31 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accurac
 @inproceedings{kang2023rcsyolo,
   author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Raphaël},
   title = {Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection},
-  editor = {},
+  editor = {Xxxx, X. et al.},
   booktitle = {Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?},
-  series = {Lecture Notes in Computer Science (LNCS), vol },
+  series = {Lecture Notes in Computer Science (LNCS), vol 00000},
   year = {2023},
   pages = {},
-  publisher = {Springer, Cham},
+  publisher = {Springer},
   note = {in press},
-  doi= {},
-  url = {}
+  doi= {10.1007/978-3-000-00000-0\_0},
+  url = {https://doi.org/10.1007/978-3-000-00000-0\_0}
 }
 ```
 ```
 @inproceedings{kang2023rcsyolo,
   author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Raphaël Phan",
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
-  editor = "",
+  editor = "X. Xxxx et al.",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
-  series = "Lecture Notes in Computer Science (LNCS), vol. "
+  series = "Lecture Notes in Computer Science (LNCS), vol. 00000"
   address = "Vancouver, BC, Canada, Oct. 8--12",
   year = "2023",
   pages = "",
   publisher = "Cham, Germany: Springer",
   note = "in press",
-  doi = "",
-  url = "",
+  doi = "10.1007/978-3-000-00000-0\_0",
+  url = "https://doi.org/10.1007/978-3-000-00000-0\_0",
 }
 ```
 <sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `address`, `publisher`, and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file.</sup>
