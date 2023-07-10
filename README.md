@@ -48,7 +48,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 > BibTeX Format</br>
 ```
 @inproceedings{kang2023rcsyolo,
-  author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Raphaël C.-W.},
+  author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.},
   title = {Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection},
   editor = {Xxxx, X. et al.},
   booktitle = {Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?},
@@ -63,7 +63,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 ```
 ```
 @inproceedings{kang2023rcsyolo,
-  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Raphaël C.-W. Phan",
+  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Rapha{\"e}l C.-W. Phan",
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
   editor = "X. Xxxx et al.",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
