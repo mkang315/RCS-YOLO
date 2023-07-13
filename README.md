@@ -49,10 +49,24 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 ```
 @inproceedings{kang2023rcsyolo,
   author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.},
+  title = {RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection},
+  editor = {Xxxx, X. et al.},
+  booktitle = {MICCAI 2023},
+  series = {LNCS, vol. 00000},
+  year = {2023},
+  pages = {},
+  publisher = {Springer, Cham},
+  note = {in press},
+  doi= {10.1007/978-3-000-00000-0\_0},
+  url = {https://doi.org/10.1007/978-3-000-00000-0\_0}
+}
+```
+```
+@inproceedings{kang2023rcsyolo,
+  author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.},
   title = {Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection},
   editor = {Xxxx, X. et al.},
   booktitle = {Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?},
-  series = {Lecture Notes in Computer Science (LNCS), vol 00000},
   year = {2023},
   pages = {},
   publisher = {Springer},
@@ -67,7 +81,8 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
   editor = "X. Xxxx et al.",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
-  series = "Lecture Notes in Computer Science (LNCS), vol. 00000"
+  series = "Lecture Notes in Computer Science (LNCS)"
+  volumn = "00000"
   address = "Vancouver, BC, Canada, Oct. 8--12",
   year = "2023",
   pages = "",
