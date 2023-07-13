@@ -47,19 +47,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 
 > BibTeX Format</br>
 ```
-@inproceedings{kang2023rcsyolo,
-  author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.},
-  title = {RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection},
-  editor = {Xxxx, X. et al.},
-  booktitle = {MICCAI 2023},
-  series = {LNCS, vol. 00000},
-  year = {2023},
-  pages = {},
-  publisher = {Springer, Cham},
-  note = {in press},
-  doi= {10.1007/978-3-000-00000-0\_0},
-  url = {https://doi.org/10.1007/978-3-000-00000-0\_0}
-}
+\bibitem{kang2023rcsyolo} Kang, M., Ting, C.-M., Ting, F. F., Phan, R. C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 00000, in press. Springer, Cham (2023). {\UrlFont https://doi.org/10.1007/978-3-000-00000-0\_0}
 ```
 ```
 @inproceedings{kang2023rcsyolo,
