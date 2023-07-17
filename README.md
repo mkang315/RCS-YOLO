@@ -36,7 +36,7 @@ Our manuscript has been accepted for publication. Please cite our paper if you u
 
 - Springer *LNCS* Style</br>
 Kang, M., Ting, C.-M., Ting, F. F., Phan, R. C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 00000, in press. Springer, Cham (2023). [https://doi.org/10.1007/978-3-000-00000-0\_0](https://doi.org/10.1007/978-3-000-00000-0\_0)</br>
-<sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS and use the LNCS citation style. LNCS stands for Lecture Notes in Computer Science.</sup>
+<sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS and use the LNCS referenece/citation style. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - *Nature* Style</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
