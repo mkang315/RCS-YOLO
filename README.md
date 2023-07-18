@@ -30,6 +30,10 @@ We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection
 
 The screenshots of evaluation results are in the directory [./runs/val/](https://github.com/mkang315/RCS-YOLO/tree/main/runs/val).
 
+## Ablation Study
+
+The files train_repvgg-csp.py and https://test_repvgg-csp.py are used for an ablation study of the comparison network repvgg-csp.yaml in the directory [./cfg/ablation/](https://github.com/mkang315/RCS-YOLO/tree/main/cfg/ablation).
+
 ## Suggested Citation
 Our manuscript has been accepted for publication. Please cite our paper if you use code from this repository:
 > Plain Text
