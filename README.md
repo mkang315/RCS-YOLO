@@ -28,7 +28,7 @@ python test.py --data data/br35h.yaml --img 640 --batch 32 --conf 0.001 --iou 0.
 ## Evaluation
 We trained and evaluated RCS-YOLO on the dataset [Br35H :: Brain Tumor Detection 2020](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection). The .txt format annotations in the folder dataset-Br35H are coverted from original json format. We used 500 images of which in the ’train’ folder were selected as the training set, while the other 201 images in the ’val’ folder as the testing set. <br />
 
-The screenshots of evaluation results are in the directory [./runs/val/](https://github.com/mkang315/RCS-YOLO/tree/main/runs/val).
+The screenshots of evaluation results were saved in the directory [./runs/val/](https://github.com/mkang315/RCS-YOLO/tree/main/runs/val).
 
 ## Ablation Study
 
