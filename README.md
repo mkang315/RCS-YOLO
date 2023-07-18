@@ -43,7 +43,7 @@ Kang, M., Ting, C.-M., Ting, F. F., Phan, R. C.-W.: RCS-YOLO: a fast and high-ac
 <sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS and use the LNCS referenece/citation style. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - *Nature* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
 
 - *IEEE* Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, in press.</br>
