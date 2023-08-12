@@ -66,8 +66,8 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   address = "Cham",
   year = "2023",
   note = "in press",
-  doi= "10.1007/978-3-000-00000-0\_0",
-  url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
+  doi= "10.1007/978-3-000-00000-0_0",
+  url = "https://doi.org/10.1007/978-3-000-00000-0_0"
 }
 ```
 ```
@@ -83,8 +83,8 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   publisher = "Cham, Germany: Springer",
   year = "2023",
   note = "in press",
-  doi = "10.1007/978-3-000-00000-0\_0",
-  url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
+  doi = "10.1007/978-3-000-00000-0_0",
+  url = "https://doi.org/10.1007/978-3-000-00000-0_0"
 }
 ```
 <sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
