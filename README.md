@@ -59,10 +59,12 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   title = "RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection",
   editor = "Xxxx, X. et al.",
   booktitle = "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?",
-  year = "2023",
+  series = "Lecture Notes in Computer Science (LNCS)",
+  volume = "00000",
   pages = "",
   publisher = "Springer",
   address = "Cham",
+  year = "2023",
   note = "in press",
   doi= "10.1007/978-3-000-00000-0\_0",
   url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
@@ -74,18 +76,18 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
   editor = "X. Xxxx et al.",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
-  series = "Lecture Notes in Computer Science (LNCS)"
-  volume = "00000"
+  series = "Lecture Notes in Computer Science (LNCS)",
+  volume = "00000",
   address = "Vancouver, BC, Canada, Oct. 8--12",
-  year = "2023",
   pages = "",
   publisher = "Cham, Germany: Springer",
+  year = "2023",
   note = "in press",
   doi = "10.1007/978-3-000-00000-0\_0",
   url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
 }
 ```
-<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `address`, `publisher`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
