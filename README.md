@@ -59,6 +59,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   title = "RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection",
   editor = "Xxxx, X. et al.",
   booktitle = "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?",
+  series = "",
   organization = "",
   year = "2023",
   pages = "",
