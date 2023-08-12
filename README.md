@@ -55,16 +55,16 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 ```
 ```
 @inproceedings{Kang23rcsyolo,
-  author = {Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.},
-  title = {RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection},
-  editor = {Xxxx, X. et al.},
-  booktitle = {Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?},
-  year = {2023},
-  pages = {},
-  publisher = {Springer},
-  note = {in press},
-  doi= {10.1007/978-3-000-00000-0\_0},
-  url = {https://doi.org/10.1007/978-3-000-00000-0\_0}
+  author = "Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.",
+  title = "RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection",
+  editor = "Xxxx, X. et al.",
+  booktitle = "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?",
+  year = "2023",
+  pages = "",
+  publisher = "Springer",
+  note = "in press",
+  doi= "10.1007/978-3-000-00000-0\_0",
+  url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
 }
 ```
 ```
@@ -74,17 +74,17 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   editor = "X. Xxxx et al.",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
   series = "Lecture Notes in Computer Science (LNCS)"
-  volumn = "00000"
+  volume = "00000"
   address = "Vancouver, BC, Canada, Oct. 8--12",
   year = "2023",
   pages = "",
   publisher = "Cham, Germany: Springer",
   note = "in press",
   doi = "10.1007/978-3-000-00000-0\_0",
-  url = "https://doi.org/10.1007/978-3-000-00000-0\_0",
+  url = "https://doi.org/10.1007/978-3-000-00000-0\_0"
 }
 ```
-<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `address`, `publisher`, and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited.</sup>
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `address`, `publisher`, and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark `""` in the field could be replaced by the brace `{}`. </sup>
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
