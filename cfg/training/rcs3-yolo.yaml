@@ -1,0 +1,47 @@
+# RCS-YOLO v1.1 (Three heads)
+
+# Parameters
+nc: 1  # number of classes
+depth_multiple: 1.0  # model depth multiple
+width_multiple: 0.75  # layer channel multiple
+anchors:
+  - [87,90,  127,139]  # P4/16
+  - [154,171,  191,240]  # P5/32  
+  - [308,342,  384,480]  # P5/32  
+
+backbone: # 12462
+  # [from, number, module, args]
+  [[-1, 1, RepVGG, [64, 3, 2]],  # 0-P1/2
+   [-1, 1, RepVGG, [128, 3, 2]],  # 1-P2/4
+   [-1, 2, RCSOSA, [128]],
+   [-1, 1, RepVGG, [256, 3, 2]],  # 3-P3/8
+   [-1, 2, RCSOSA, [256]],
+   [-1, 1, RepVGG, [512, 3, 2]],  # 5-P4/16
+   [-1, 4, RCSOSA, [512, True]],
+   [-1, 1, RepVGG, [1024, 3, 2]],  # 7-P5/32
+   [-1, 2, RCSOSA, [1024, True]],
+   [-1, 1, SPPF, [1024, 5]],  # 9
+  ]
+
+
+head:
+  [[-1, 1, Conv, [512, 1, 1]], # 10
+   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
+   [-1, 2, RCSOSA, [512]],  # 12
+	
+   [[-1, 6], 1, Concat, [1]],  # cat backbone P4
+   [-1, 2, RCSOSA, [512]],  # 14
+
+   [-1, 1, RepVGG, [512, 3, 2]],
+   [[-1, 10], 1, Concat, [1]],  # cat head P5
+   [-1, 2, RCSOSA, [768]],  # 17
+
+   [12, 1, nn.Upsample, [None, 2, 'nearest']],
+   [-1, 2, RCSOSA, [512]],  # 19
+
+   [19, 1, RepVGG, [256, 3, 1]],
+   [14, 1, RepVGG, [512, 3, 1]],
+   [17, 1, RepVGG, [768, 3, 1]],
+
+   [[20, 21, 22], 1, IDetect, [nc, anchors]],  # Detect(P3, P4, P5)
+  ]
