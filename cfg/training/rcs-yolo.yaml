@@ -1,4 +1,4 @@
-# RCS-YOLO v1.0
+# RCS-YOLO v1.0  (Two heads)
 
 # Parameters
 nc: 1  # number of classes
@@ -39,5 +39,5 @@ head:
    [14, 1, RepVGG, [512, 3, 1]],
    [17, 1, RepVGG, [768, 3, 1]],
 
-   [[18, 19], 1, IDetect, [nc, anchors]],  # Detect(P3, P4, P5)
+   [[18, 19], 1, IDetect, [nc, anchors]],  # Detect(P4, P5)
   ]
