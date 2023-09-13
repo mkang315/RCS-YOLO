@@ -39,11 +39,11 @@ Please cite our paper if you use code from this repository:
 > Plain Text
 
 - *Springer* Style</br>
-Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 00000, in press. Springer, Cham (2023). [https://doi.org/10.1007/978-3-000-00000-0\_0](https://doi.org/10.1007/978-3-000-00000-0\_0)</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, in press. Springer, Cham (2023). [https://doi.org/10.1007/978-3-031-43901-8_57](https://doi.org/10.1007/978-3-031-43901-8_57)</br>
 <sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS in which Springer's format for bibliographical references is strictly enforced. This is important, for instance, when citing previous MICCAI proceedings. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - *Nature* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part ?* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV* (eds. Xxxx, X. et al.) in press (Springer, 2023).</br>
 
 - *IEEE* Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, in press.</br>
@@ -52,7 +52,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 > BibTeX Format</br>
 ```
 \begin{thebibliography}{1}
-\bibitem{Kang23Rcsyolo} Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 00000, in press. Springer, Cham (2023). {\UrlFont https://doi.org/10.1007/978-3-000-00000-0\_0}
+\bibitem{Kang23Rcsyolo} Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Xxxx, X., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, in press. Springer, Cham (2023). {\UrlFont https://doi.org/10.1007/978-3-031-43901-8\_57}
 \end{thebibliography}
 ```
 ```
@@ -62,14 +62,14 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   editor = "Xxxx, X. et al.",
   booktitle = "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--12, 2023, Proceedings, Part ?",
   series = "Lecture Notes in Computer Science (LNCS)",
-  volume = "00000",
+  volume = "14223",
   pages = "",
   publisher = "Springer",
   address = "Cham",
   year = "2023",
   note = "in press",
-  doi= "10.1007/978-3-000-00000-0_0",
-  url = "https://doi.org/10.1007/978-3-000-00000-0_0"
+  doi= "10.1007/978-3-031-43901-8_57",
+  url = "https://doi.org/10.1007/978-3-031-43901-8_57"
 }
 ```
 ```
