@@ -1,4 +1,4 @@
-# Recommend:  Python 3.7, Torch 1.7.0, CUDA 10.1
+# Recommend:  Python <= 3.8, Torch <= 1.7.1, CUDA <= 11.1
 # Usage: pip install -r requirements.txt
 
 # Base ----------------------------------------
