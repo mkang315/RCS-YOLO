@@ -6,9 +6,9 @@ The model configuration (i.e., network construction) file is rcs-yolo.yaml (2 he
 
 Recommended running environment:
 ```
-Python 3.7
-Torch 1.7.0
-CUDA 10.1
+Python <= 3.8
+Torch <= 1.7.1
+CUDA 11.1
 ```
 
 #### Training
