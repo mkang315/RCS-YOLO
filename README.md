@@ -4,7 +4,7 @@ This is the source code for the paper, "RCS-YOLO: A Fast and High-Accuracy Objec
 ## Model
 The model configuration (i.e., network construction) file is rcs-yolo.yaml (2 heads) or rcs3-yolo.yaml (3 heads) in the directory [./cfg/training/](https://github.com/mkang315/RCS-YOLO/tree/main/cfg/training). The [RepVGG](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf)/[RepConv](https://arxiv.org/pdf/2207.02696.pdf) [ShuffleNet](https://openaccess.thecvf.com/content_ECCV_2018/papers/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.pdf) based [One-Shot Aggregation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_CenterMask_Real-Time_Anchor-Free_Instance_Segmentation_CVPR_2020_paper.pdf) (RCS-OSA) module file is rcsosa.py in the directory [./models/](https://github.com/mkang315/RCS-YOLO/tree/main/models), which is the unique module we proposed.
 
-Recommended running dependencies:
+Recommended dependencies:
 ```
 Python <= 3.8
 Torch <= 1.7.1
