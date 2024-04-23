@@ -74,7 +74,6 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
   publisher = "Springer",
   address = "Cham",
   year = "2023",
-  note = "in press",
   doi= "10.1007/978-3-031-43901-8_57",
   url = "https://doi.org/10.1007/978-3-031-43901-8_57"
 }
