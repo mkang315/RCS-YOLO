@@ -57,7 +57,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
 - *Elsevier* Style</br>
-M. Kang, C.-M. Ting, F. F. Ting, R.C.-W. Phan, RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection, in: Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, pp. 600–610.</br>
+M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection, in: Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, pp. 600–610.</br>
 
 > BibTeX Format</br>
 ```
@@ -91,7 +91,7 @@ M. Kang, C.-M. Ting, F. F. Ting, R.C.-W. Phan, RCS-YOLO: A fast and high-accurac
   year = "2023",
 }
 ```
-<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `kang2023rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file. `Kang23Rcsyolo` could be `b1`, `bib1`, or `ref1` when references appear in the order in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
 
 ## License
 RCS-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/RCS-YOLO/blob/main/LICENSE) file for more information.
