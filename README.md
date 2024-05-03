@@ -57,7 +57,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
 - *Elsevier* Style</br>
-M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection, in: Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, pp. 600–610.</br>
+M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection, in: H. Greenspan, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, pp. 600–610.</br>
 
 > BibTeX Format</br>
 ```
