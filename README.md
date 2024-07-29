@@ -8,9 +8,6 @@ Recommended dependencies:
 ```
 pip install -r requirements.txt
 ```
-Python <= 3.8
-Torch <= 1.7.1
-CUDA <= 11.1
 
 #### Training
 
