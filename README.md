@@ -82,7 +82,7 @@ Kang, M., Ting, C.-M., Ting, F.F. & Phan, R.C.-W., 2023. RCS-YOLO: A fast and hi
   address = "Cham",
   year = "2023",
   doi= "10.1007/978-3-031-43901-8\_57",
-  url = "https://doi.org/10.1007/978-3-031-43901-8\_57"
+  url = "https://doi.org/10.1007/978-3-031-43901-8_57"
 }
 ```
 ```
