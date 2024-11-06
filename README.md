@@ -45,7 +45,7 @@ Please cite our paper if you use code from this repository. Here is a guide to r
 > Plain Text
 
 - Springer Reference Style</br>
-Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Greenspan, H., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, 600–610. Springer, Cham (2023). [https://doi.org/10.1007/978-3-031-43901-8_57](https://doi.org/10.1007/978-3-031-43901-8_57)</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Greenspan, H., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, pp. 600–610. Springer, Cham (2023). [https://doi.org/10.1007/978-3-031-43901-8_57](https://doi.org/10.1007/978-3-031-43901-8_57)</br>
 <sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS in which Springer's format for bibliographical references is strictly enforced. This is important, for instance, when citing previous MICCAI proceedings. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - Nature Referencing Style</br>
@@ -66,7 +66,7 @@ Kang, M., Ting, C.-M., Ting, F.F. & Phan, R.C.-W., 2023. RCS-YOLO: A fast and hi
 > BibTeX Format</br>
 ```
 \begin{thebibliography}{1}
-\bibitem{Kang23Rcsyolo} Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Greenspan, H., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, 600--610. Springer, Cham (2023). {\UrlFont https://doi.org/10.1007/978-3-031-43901-8\_57}
+\bibitem{Kang23Rcsyolo} Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Greenspan, H., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, pp. 600--610. Springer, Cham (2023). {\UrlFont https://doi.org/10.1007/978-3-031-43901-8\_57}
 \end{thebibliography}
 ```
 ```
