@@ -60,12 +60,12 @@ M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: A fast and high-accuracy
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
 - Harvard (Name–Date) Style</br>
-Kang, M., Ting, C.-M., Ting, F.F. & Phan, R.C.-W., 2023. RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In: H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada. Springer, Cham, Germany, pp. 600–610.</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2023. RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In: H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada. Springer, Cham, Germany, pp. 600–610.</br>
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
 - APA7 (author–date) Style</br>
-Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W., 2023. RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In: H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada. Springer, Cham, Germany, pp. 600–610.</br>
-
+Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2023). RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, R. Taylor (Eds.), *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV* (pp. 600–610). Springer. https://doi.org/10.1007/978-3-031-43901-8_57</br>
+</br>
 > BibTeX Format</br>
 ```
 \begin{thebibliography}{1}
