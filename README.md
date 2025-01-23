@@ -55,7 +55,7 @@ Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. RCS-YOLO: a fast and high-ac
 M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, pp. 600–610.</br>
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & Day(s) are optional.</sup>
 
-- IEEE Full Name Reference Style </br>
+- IEEE Full Name Reference Style</br>
 Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *MICCAI*, pages 600–610, 2023.</br>
 <sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of NeurIPS and ICLR are similar to.
 
