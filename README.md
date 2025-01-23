@@ -57,7 +57,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 
 - IEEE Full Name Reference Style</br>
 Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *MICCAI*, pages 600–610, 2023.</br>
-<sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of NeurIPS and ICLR are similar to.
+<sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including *CVPR*, *ICCV*, and *WACV*, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of *NeurIPS* and *ICLR* are similar to.
 
 - Elsevier Numbered Style</br>
 M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection, in: H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada, Springer, Cham, Germany, 2023, pp. 600–610.</br>
@@ -67,7 +67,7 @@ M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, RCS-YOLO: A fast and high-accuracy
 Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2023. RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In: H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, et al. (Eds.), Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada. Springer, Cham, Germany, pp. 600–610.</br>
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
-- APA7 (author–date) Style</br>
+- APA7 (Author–Date) Style</br>
 Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2023). RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, R. Taylor (Eds.), *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV* (pp. 600–610). Springer. https://doi.org/10.1007/978-3-031-43901-8_57</br>
 
 
