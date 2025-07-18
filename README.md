@@ -60,11 +60,11 @@ Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2023. RCS-YOLO: a fast and hig
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional. Alterative version of the booktitle, Day(s) Month Year, City, and Country of Conference is 'Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 8–12 October 2023, Vancouver, BC, Canada.'.</sup>
 
 - IEEE Reference Style</br>
-M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, pp. 600–610.</br>
+M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," in *Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)*, Vancouver, BC, Canada, Oct. 8–12, 2023, vol. 14223, pp. 600–610.</br>
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & Day(s) are optional.</sup>
 
 - IEEE Full Name Reference Style</br>
-Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *MICCAI*, pages 600–610, 2023.</br>
+Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *MICCAI*, vol. 14223, pages 600–610, 2023.</br>
 <sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including *CVPR*, *ICCV*, and *WACV*, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of *NeurIPS*, *ICLR*, and *IJCAI* are similar to.</sup>
 
 - APA7 (Author–Date) Style</br>
@@ -100,7 +100,8 @@ Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2023). RCS-YOLO: A fast and 
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
   booktitle = "Proc. Int. Conf. Med. Image Comput. Comput. Assist. Interv. (MICCAI)",
   % booktitle = MICCAI, %% IEEE Full Name Reference Style
-  address = "Vancouver, BC, Canada, Oct. 8--12",
+  address = "Vancouver, BC, Canada, Oct. 8--12",\
+  volume = "14223",
   pages = "600--610",
   year = "2023"
 }
