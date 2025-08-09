@@ -6,7 +6,7 @@
 <a href="https://arxiv.org/abs/2307.16412"><img alt="Build" src="https://img.shields.io/badge/arXiv%20paper-2307.16412-b31b1b.svg"></a>
 </div>
 
-## Introduction
+## Description
 This is the source code for the paper titled "RCS-YOLO: A Fast and High-Accuracy Object Detector for Brain Tumor Detection" published in the [Proceedings](https://link.springer.com/chapter/10.1007/978-3-031-43901-8_57) of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2023](https://conferences.miccai.org/2023/en)), of which I am the first author. The paper is available to download from [Springer](https://link.springer.com/content/pdf/10.1007/978-3-031-43901-8_57?pdf=chapter%20toc) or [arXiv](https://arxiv.org/pdf/2307.16412).
 
 ## Model
