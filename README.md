@@ -49,7 +49,7 @@ The screenshots of evaluation results were saved in the directory [./runs/val/](
 The files train_repvgg-csp.py and https://test_repvgg-csp.py are used for an ablation study of the comparison network repvgg-csp.yaml in the directory [./cfg/ablation/](https://github.com/mkang315/RCS-YOLO/tree/main/cfg/ablation).
 
 ## Referencing Guide
-Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
+Please cite the paper if using this repository. Here is a guide to referencing this work in various styles for formatting your references:
 > Plain Text
 
 - Springer Reference Style</br>
