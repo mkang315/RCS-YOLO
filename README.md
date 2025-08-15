@@ -49,12 +49,12 @@ The screenshots of evaluation results were saved in the directory [./runs/val/](
 The files train_repvgg-csp.py and https://test_repvgg-csp.py are used for an ablation study of the comparison network repvgg-csp.yaml in the directory [./cfg/ablation/](https://github.com/mkang315/RCS-YOLO/tree/main/cfg/ablation).
 
 ## Referencing Guide
-Please cite the paper if using this repository. Here is a guide to referencing this work in various styles for formatting your references:
-> Plain Text
+Please cite the paper if using this repository. Here is a guide to referencing this work in various styles for formatting your references:</br>
 
+> Plain Text</br>
 - **Springer Reference Style**</br>
 Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In: Greenspan, H., et al. (eds.) MICCAI 2023. LNCS, vol. 14223, pp. 600–610. Springer, Cham (2023). [https://doi.org/10.1007/978-3-031-43901-8_57](https://doi.org/10.1007/978-3-031-43901-8_57)</br>
-<sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS in which Springer's format for bibliographical references is strictly enforced. This is important, for instance, when citing previous MICCAI proceedings, which the reference style of *ECCV* is same as. LNCS stands for Lecture Notes in Computer Science.</sup>
+<sup>**NOTE:** *MICCAI* and *ECCV* conference proceedings are part of the book series LNCS in which Springer's format for bibliographical references is strictly enforced. This is important, for instance, when citing previous *MICCAI* and *ECCV* proceedings. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - **Nature Referencing Style**</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. RCS-YOLO: a fast and high-accuracy object detector for brain tumor detection. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV* (eds. Greenspan, H. et al.) 600–610 (Springer, 2023).</br>
