@@ -79,7 +79,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Rcs-yolo: A fast and high-a
 
 - **IEEE Full Name Reference Style**</br>
 Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *MICCAI*, vol. 14223, pages 600–610, 2023.</br>
-<sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including *CVPR*, *ICCV*, and *WACV*, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.".</sup></br>
+<sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including **CVPR**, **ICCV**, and **WACV**, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.".</sup></br>
 &nbsp;- **IJCAI Full Name-Year Variation**</br>
 \[Kang *et al.*, 2023\] Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection. In *Proceedings of the 26th International Conference on Medical Image Computing and Computer-Assisted Intervention*, vol. 14223, pages 600–610, Cham, Germany, October 2023. Springer.</br>
 &nbsp;- **ACL Full Name-Year Variation**</br>
@@ -89,7 +89,7 @@ Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. 2023. Rcs-yo
 Kang, M., Ting, C.-M., Ting, F. F., & Phan, R. C.-W. (2023). RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In H. Greenspan, A. Madabhushi, P. Mousavi, S. Salcudean, J. Duncan, T. Syeda-Mahmood, R. Taylor (Eds.), *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV* (pp. 600–610). Springer. https://doi.org/10.1007/978-3-031-43901-8_57</br>
 &nbsp;- **ICML (Author–Year) Variation**</br>
 Kang, M., Ting, C.-M., Ting, F. F., and Phan, R. C.-W. RCS-YOLO: A fast and high-accuracy object detector for brain tumor detection. In M.G. Linguraru, Q. Dou, A. Feragen, S. Giannarou, B. Glocker, K. Lekadir, J. A. Schnabel (Eds.), *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8–12, 2023, Proceedings, Part IV*, pp. 600–610, Cham, Germany, 2023. Springer.</br>
-<sup>**NOTE:** For *NeurIPS* and *ICLR*, any reference/citation style is acceptable as long as it is used consistently. The sample of references in Formatting Instructions For NeurIPS almost follows APA7 (author–date) style and that in Formatting Instructions For ICLR Conference Submissions is similar to IJCAI full name-year variation.</sup>
+<sup>**NOTE:** For **NeurIPS** and **ICLR**, any reference/citation style is acceptable as long as it is used consistently. The sample of references in Formatting Instructions For NeurIPS almost follows APA7 (author–date) style and that in Formatting Instructions For ICLR Conference Submissions is similar to IJCAI full name-year variation.</sup>
 
 > BibTeX Format</br>
 ```
